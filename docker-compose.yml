@@ -19,8 +19,8 @@ services:
     ports:
       - 9200:9200
       - 9300:9300
-    networks:
-      - elk
+    # networks:
+    #   - elk
 
   logstash:
     container_name: logstash
